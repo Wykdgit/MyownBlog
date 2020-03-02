@@ -1,4 +1,4 @@
-# freemall
+# Sell
 
 ## Project setup
 ```
