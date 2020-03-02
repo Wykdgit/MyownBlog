@@ -1,0 +1,21 @@
+{
+	"code":0,
+	"data":[
+		{
+			"tagId":1,
+			"tagName":"健身",
+			"articleNum":1
+		},
+		{
+			"tagId":2,
+			"tagName":"技术",
+			"articleNum":2
+		},
+		{
+			"tagId":3,
+			"tagName":"生活",
+			"articleNum":5
+		}
+	],
+	"message":""
+}

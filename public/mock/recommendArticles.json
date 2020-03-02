@@ -1,0 +1,34 @@
+{
+	"code":0,
+	"data":[
+		{
+			"articleId":1,
+			"articleName":"文章1的标题",
+			"readNum":112,
+			"commenrNum":12,
+			"starNum":1
+		},
+		{
+			"articleId":2,
+			"articleName":"文章2的标题",
+			"readNum":122,
+			"commenrNum":19,
+			"starNum":2
+		},
+		{
+			"articleId":3,
+			"articleName":"文章3的标题",
+			"readNum":125,
+			"commenrNum":23,
+			"starNum":3
+		},
+		{
+			"articleId":4,
+			"articleName":"文章4的标题",
+			"readNum":1243,
+			"commenrNum":132,
+			"starNum":32
+		}
+	],
+	"message":""
+}

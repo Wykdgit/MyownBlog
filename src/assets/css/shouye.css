@@ -1,0 +1,78 @@
+
+/* 头部组件的样式设置 */
+.header{position: relative;left:0px;top:0px;height:130px;width:1420px;background-color: white;}
+.header img{position: absolute;left:0px;top:13px;height: 100px;width: 200px;}
+.header p{position: absolute;left:550px;top:-27px;font-size: 50px;color: #000000;}
+.header ul{position: absolute;right:0px;top:10px;list-style-type: none;}
+.xialaDown{position: relative;display: inline-block;}
+.xialaDown button{color:black;font-size: 22px;border: none;cursor: pointer;}
+.xialaContent{position: absolute;display: none;}
+.xialaContent a{display:block;color:black;text-decoration: none;font-size: 16px;background-color:lightcyan;}
+.xialaContent a:hover{background-color: #FA8072;}
+.xialaDown:hover .xialaContent{display: block;}
+.header ul li{float: left;padding: 10px;font-size: 20px;}
+.header ul li a{text-decoration: none;color:black;width:160px;}
+.header ul li a:hover{color:royalblue}
+
+/* 整体为两类布局,利用float+margin-left实现两列布局 */
+/* 两列的背景颜色为lightgray,宽度为(850+300),高度为300+100+10+4*300+10*3(4个文章)*/
+.twoCol{position: relative;top:5px;width: 1150px;background-color: lightgray;left:150px;}
+/* 第一列的背景颜色为sienna,宽为850px*/
+.firstCol{float: left;width: 850px;background-color: white;}
+/* 设置头部照片 高度为400 宽度为850*/
+.headPic{position: relative;top:20px;height: 300px;width: 850px;}
+.headPic img{position:relative;height: 300px;width: 850px;}
+.headPic #num{position: absolute;top:0;width: 850px;text-align: center;}
+.headPic #up{position: absolute;left:0;top:120px;color: black;background-color: white;}
+.headPic #down{position: absolute;right:0;top:120px;color: black;background-color: white;}
+/* 设置文章表示符,表示下面是文章 高度为100px,宽度为850px */
+.articleSign{position: relative;width: 850px;height: 100px;background-color: whitesmoke;}
+.articleSign .blackBox{position: absolute;left:0px;top:15px;height: 70px;width: 70px;background-color: #000000;}
+.articleSign p{position: absolute;left: 100px;top:20px;color: #000000;font-size: 17px;}
+/* 设置4个文章的大小,样式 每个文章高度为300,文章之间的间隔为10px,ul高度为300*4+3*10=1230
+外部直接ul,内部为li,设置为display:block!*/
+.article{position: relative;top:-10px;height: 1240px;width: 810px;background-color:whitesmoke;list-style-type: none;}
+.article li{height: 300px;width: 850px;background-color: white;display:block ;position:relative;left:-40px;}
+#articlebody{height: 250px;width: 550px;}
+#articlebody h2{color:salmon;}
+#articleExtra{height: 50px;}
+#articleExtra p{display: inline;margin: 10px;}
+#articleTag{position: absolute;top:0px;right:0px;height: 300px;width: 300px;background-color: silver;}
+
+
+
+/* 第二列的背景颜色为#E0FFFF,宽为300px 高度为1600px*/
+.secondCol{margin-left: 850px;width: 300px;background-color: white;}
+/* 头部照片描述文字,和照片高度一样 */
+.headPicDescribe{position: relative;top:0px;height: 300px;background-color: white;}
+.headPicDescribe_down {position: absolute;top:0px;}
+/* 设置自己博客的头像 ,300*330(300+15*2)*/
+.myself{position: relative;top:20px;height: 330px;width: 300px;}
+/* 要设置图片的大小,否则就会按照图片本身的大小来展示 */
+.myself img{position:relative;width: 300px;height: 300px;}
+#name {height:15px;width: 300px;text-align: center;font-size: 25px;}
+#des  {height:15px;width: 300px;text-align: center;font-size: 18px;color: grey;}
+/* 设置推荐阅读模块的样式,推荐4篇文章,每篇文章高40px,宽300px 总高读为400px */
+.recommendArticles{position: relative;top:150px;height: 340px;list-style-type: none;width: 260px;background-color: whitesmoke;}
+.recommendArticles li{position:relative;left:-40px;top:0px;height: 70px;width: 300px;background-color: white;}
+.recommendArticles li h3 a{text-decoration: none;color: black;}
+.recommendArticles li p{display: inline;padding: 5px;}
+/* 设置标签墙的位置,尺寸,大小 260*600*/
+.tagswall {position: relative;top:200px;height: 400px;width: 260px;background-color: bisque;list-style-type: none;}
+.tagswall li {height: 30px;width: 80px;border: 2px solid grey;position: relative;left:-40px;top:7px;}
+.tagswall li p{color: seagreen;font-size: 15px;margin-top:5px;}
+
+/* 设置页脚 */
+.footer{position: relative;left:-150px;top:12px;height:80px;width: 1420px;background-color: darkgrey}
+.footer p{position: absolute;left:40%;top:20%;}
+
+
+
+
+
+
+
+
+
+
+

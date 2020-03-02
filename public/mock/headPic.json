@@ -1,0 +1,35 @@
+{
+	"code":0,
+	"data":[
+		{
+			"picTopNum":"1/4",
+			"picBotDes":"图片1",
+			"picUrl":"/imgs/pic1.jpg",
+			"picTitle":"图片1的描述",
+			"picBriefContex":"图片1的内容"
+		},
+		{
+			"picTopNum":"2/4",
+			"picBotDes":"图片2",
+			"picUrl":"/imgs/pic2.jpg",
+			"picTitle":"图片2的描述",
+			"picBriefContex":"图片2的内容"
+		},
+		{
+			"picTopNum":"3/4",
+			"picBotDes":"图片3",
+			"picUrl":"/imgs/pic3.jpg",
+			"picTitle":"图片3的描述",
+			"picBriefContex":"图片3的内容"
+		},
+		{
+			"picTopNum":"4/4",
+			"picBotDes":"图片4",
+			"picUrl":"/imgs/pic4.jpg",
+			"picTitle":"图片4的描述",
+			"picBriefContex":"图片4的内容"
+		}
+	],
+	"message":""
+	
+}
